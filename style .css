@@ -66,3 +66,18 @@ header{
     height: 24px;
     margin-right: 10px;
   }
+  @media (max-width: 600px) {
+    .profile-card {
+        width: 90%; /* Adjusts width for mobile screens */
+        padding: 15px;
+    }
+
+    .button {
+        font-size: 14px; /* Makes text smaller on small screens */
+        padding: 10px 15px;
+    }
+
+    h1 {
+        font-size: 18px; /* Adjusts heading size */
+    }
+}
