@@ -8,7 +8,7 @@ header{
 #wlcm{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    /* margin-top: 1px; */
+    margin-top: 1px;
 }
 .sp{
     color: maroon;
@@ -16,27 +16,28 @@ header{
 }
 #img{
     display: block;
-    height: 25%;
-    width: 20%;
-    margin-left: 40%;
-    margin-top: 1%;
+    height: 150px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 10px;
 }
 #d1{
     /* border: 2px red solid; */
-    
+    position: relative;
+    top: -25px;
 }
 .card {
     background-color: bisque;
-    padding: 2%;
+    padding: 30px;
     border: 2px black solid;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 24%;
-    margin-left: 37%;
+    width: 350px;
+    margin-left: 550px;
   }
   .card h2 {
-    margin-bottom: 10%px;
+    margin-bottom: 20px;
     font-size: 24px;
     color: #333;
   }
